@@ -1,0 +1,90 @@
+/* Colors and font */
+body{
+	background-color: #CAD3F3;
+	color: #893A70;
+	font-family: Lucida Bright;
+	font-size: 16px;
+	letter-spacing: 0.5px
+
+}
+
+h1,h2{
+	font-family: Sagona Book;
+}
+
+h1{
+	color: #193147;
+	font-weight: 400;
+	font-size: 35px;
+	letter-spacing: 0.5px;
+}
+
+h2{
+	color: #193147;
+	font-size: 22px;
+	letter-spacing: 0.5px
+	font-weight:  300;
+}
+
+a {
+	text-decoration: none;
+	font-family: Lucida Bright;
+	color: #193147;
+	font-size: 15px;
+}
+a:hover {
+  color: #193147;
+  font-weight: bold;	
+}
+
+/* Custom design with class */
+
+ .container{
+ 	width: 700px;
+ 	margin: 40px auto;
+ }
+
+@media (max-width: 760px){
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+.card-lavender{
+	background-color: #ECEBE9;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgab(0,0,0,0.5);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+ }
+
+.img-circle  {
+	border-radius: 50%;
+}
+
+.btn-blue{
+	background-color: #893A70;
+	color: white;
+	padding: 7px 20px;
+	border-radius: 4px;
+}
+.btn-blue:hover{
+	 background-color: black;
+	 color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding: 0px;
+}
+.list-inline li {
+	dsiplay: inline;
+	padding: 10px;
+}
